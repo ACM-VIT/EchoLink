@@ -173,3 +173,6 @@ Congratulations! You've successfully contributed to the EchoLink app. Thank you 
 [![Website](https://img.shields.io/badge/Website-%23000000.svg?&style=for-the-badge&logo=google-chrome&logoColor=white)](https://acmvit.in/)
 [![Blog](https://img.shields.io/badge/Blog-%230A0A0A.svg?&style=for-the-badge&logo=blogger&logoColor=white)](https://blog.acmvit.in/)
 
+
+![ACM banner](https://github.com/JuxtaRYCT/EchoLink/assets/116808459/e8c2c02f-58af-4059-8efa-b0e98c7cc338)
+
