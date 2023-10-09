@@ -34,5 +34,13 @@ Remember to:
 
 By following these guidelines, you enhance the EchoLink experience and become an integral part of our vibrant community. Thank you for your contributions, and happy coding!
 
+## Connect with ACM-VIT
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/acmvit/)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ACM_VIT)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@associationforcomputingmac7961)
+[![Website](https://img.shields.io/badge/Website-%23000000.svg?&style=for-the-badge&logo=google-chrome&logoColor=white)](https://acmvit.in/)
+[![Blog](https://img.shields.io/badge/Blog-%230A0A0A.svg?&style=for-the-badge&logo=blogger&logoColor=white)](https://blog.acmvit.in/)
+
 
 ![ACM banner](https://github.com/JuxtaRYCT/EchoLink/assets/116808459/9767ecb1-8e70-46bd-b31a-56819ce51d60)
