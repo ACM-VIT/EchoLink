@@ -1,3 +1,7 @@
+
+
+![forktober2023](https://github.com/JuxtaRYCT/EchoLink/assets/116808459/f7f74739-b265-4d65-a24e-fc56b1026721)
+
 # EchoLink
 
 Harmonizing Connections, One Synced Sound at a Time.
@@ -29,3 +33,6 @@ Remember to:
 - **Seek Assistance When Needed:** We're here to help.
 
 By following these guidelines, you enhance the EchoLink experience and become an integral part of our vibrant community. Thank you for your contributions, and happy coding!
+
+
+![ACM banner](https://github.com/JuxtaRYCT/EchoLink/assets/116808459/9767ecb1-8e70-46bd-b31a-56819ce51d60)
