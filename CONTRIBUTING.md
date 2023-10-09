@@ -1,3 +1,6 @@
+
+
+![forktober2023](https://github.com/JuxtaRYCT/EchoLink/assets/116808459/6cf0ef49-e6ec-4c83-8c29-ad4c0b65258e)
 # Contributing to EchoLink
 
 ## Introduction
