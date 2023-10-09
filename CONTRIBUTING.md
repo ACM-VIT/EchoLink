@@ -63,9 +63,9 @@ https://www.youtube.com/watch?v=4oGzfT81fIE
 **Kindly check the official Flutter documentation at https://docs.flutter.dev/ since it is the most up-to-date resource available.**
 
 ## Git, Set, Fork!!
-Welcome to the EchoLink community! We appreciate your interest in contributing to our app. This guide will help you get started with the contribution process.
+This guide will help you get started with the contribution process.
 
-## Getting Started
+### Getting Started
 
 #### 1. Fork the Repository:
 
