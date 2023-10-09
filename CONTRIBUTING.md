@@ -165,7 +165,7 @@ At ACM-VIT, we follow a systematic approach when it comes to committing your wor
 
 Congratulations! You've successfully contributed to the EchoLink app. Thank you for being part of our community! If you have any questions or need assistance, feel free to reach out the maintainers of the project. Happy coding!
 
-# Connect with Me
+## Connect with ACM-VIT
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/acmvit/)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ACM_VIT)
