@@ -18,7 +18,7 @@ We encourage participation to further the open-source community through several 
 
 # Contributing to EchoLink
 
-Contributing to EchoLink is a rewarding experience that follows clear guidelines to maintain a collaborative and inclusive environment. Before diving in, please review our [CONTRIBUTING.md](https://github.com/JuxtaRYCT/EchoLink/blob/dev/CONTRIBUTING.md) to ensure a seamless contribution process.
+Contributing to EchoLink is a rewarding experience that follows clear guidelines to maintain a collaborative and inclusive environment. Before diving in, please review our [CONTRIBUTING.md](https://github.com/ACM-VIT/EchoLink/blob/main/CONTRIBUTING.md) to ensure a seamless contribution process.
 
 We encourage you to:
 
