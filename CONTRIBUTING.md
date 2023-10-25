@@ -15,6 +15,7 @@ It's important to follow these guidelines as they demonstrate your respect for t
 
 ## Contributing to EchoLink
 
+
 Get ready to make your first contribution during Hacktoberfest! EchoLink is gearing up for an exciting update, inviting developers to sync up with us on GitHub. Our aim is to simplify multi-device audio synchronization, turning your smartphones into a harmonized audio experience. Say goodbye to latency issues and hello to seamless playback across all connected devices. Whether you're into parties or collaborative projects, EchoLink is your go-to for an immersive audio environment. We're rolling out an open invitation for pull requests, making it easy for you to contribute and make a real impact. Join us on GitHub and let's sync up for an amazing Hacktoberfest! 🚀
 
 ## Your first Contribution!!
