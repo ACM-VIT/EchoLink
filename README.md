@@ -1,6 +1,6 @@
 
 
-![forktober2023](https://github.com/JuxtaRYCT/EchoLink/assets/116808459/f7f74739-b265-4d65-a24e-fc56b1026721)
+![forktober2023](https://github.com/ACM-VIT/.github/blob/master/profile/forktober%202023%20new.png)
 
 # EchoLink
 
