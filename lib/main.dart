@@ -1,9 +1,10 @@
 import 'package:echo_link/screens/loginpage.dart';
 import 'package:echo_link/screens/profile.dart';
 import 'package:flutter/material.dart';
+import 'screens/loginpage.dart';
 
 void main() {
-  runApp(const EchoLink());
+  runApp(const login());
 }
 
 class EchoLink extends StatefulWidget {
