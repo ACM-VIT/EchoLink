@@ -1,3 +1,4 @@
+import 'package:echo_link/screens/profile.dart';
 import 'package:echo_link/widgets/Hamdrawer.dart';
 import 'package:flutter/material.dart';
 
@@ -11,20 +12,24 @@ class login extends StatefulWidget {
 class _loginState extends State<login> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Directionality(
+      textDirection: TextDirection.ltr, 
+      child:Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff1e1e1e),
-        title: Text('Echo Link'),
+        backgroundColor: Colors.deepPurple,
+        title: const Text('Echo Link',style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       drawer: Hamdrawer(),
       resizeToAvoidBottomInset: false,
-      body: Container(
+      body: SingleChildScrollView(
+        child: Container(
         padding: const EdgeInsets.all(45.0),
         color: Colors.black,
         child: Column(
           children: [
             const SizedBox(
-              height: 50,
+              height: 40,
             ),
             const Align(
                 alignment: Alignment.topLeft,
@@ -50,7 +55,7 @@ class _loginState extends State<login> {
                   textAlign: TextAlign.center,
                 )),
             const SizedBox(
-              height: 60,
+              height: 50,
             ),
             const Align(
               alignment: Alignment.centerLeft,
@@ -103,11 +108,12 @@ class _loginState extends State<login> {
               ),
             ),
             const SizedBox(
-              height: 70,
+              height: 60,
             ),
             Container(
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                },
                 style: ElevatedButton.styleFrom(
                     //change width and height on your need width = 200 and height = 50
                     minimumSize: Size(400, 50),
@@ -154,6 +160,8 @@ class _loginState extends State<login> {
             )
           ],
         ),
+      ),
+    ),
       ),
     );
   }
