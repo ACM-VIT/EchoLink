@@ -1,4 +1,6 @@
+import 'package:echo_link/widgets/Hamdrawer.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Prof extends StatefulWidget {
   const Prof({super.key});
@@ -11,6 +13,11 @@ class _ProfState extends State<Prof> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: const Color(0xff1e1e1e),
+        title: const Text('Echo Link'),
+      ),
+      drawer: const Hamdrawer(),
       backgroundColor: Colors.black,
       body: SafeArea(
         child: Column(
@@ -21,7 +28,7 @@ class _ProfState extends State<Prof> {
               alignment: Alignment.topCenter,
               children: [
                 Image.asset('assets/images/echo.png'),
-                Column(
+                const Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -48,17 +55,17 @@ class _ProfState extends State<Prof> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: EdgeInsets.fromLTRB(10, 0, 0, 10),
+                    padding: const EdgeInsets.fromLTRB(10, 0, 0, 10),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -70,18 +77,17 @@ class _ProfState extends State<Prof> {
                                 children: [
                                   Row(
                                     children: [
-                                      Icon(
+                                      const Icon(
                                         Icons.person,
                                         color: Colors.white,
                                       ),
-                                      SizedBox(
+                                      const SizedBox(
                                         width: 10,
                                       ),
                                       Text(
                                         'DOGE MUSIC',
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.w600,
-                                          fontFamily: "Poppins",
+                                        style: GoogleFonts.eduTasBeginner(
+                                          fontWeight: FontWeight.bold,
                                           fontSize: 25,
                                           color: Colors.white,
                                         ),
@@ -93,7 +99,7 @@ class _ProfState extends State<Prof> {
                             ),
                           ],
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 30,
                         ),
                         Row(
@@ -102,20 +108,22 @@ class _ProfState extends State<Prof> {
                             Text(
                               'Emailid@gmail.com',
                               overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 16,
-                                  color: Colors.blue),
+                              style: GoogleFonts.caveat(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 23,
+                                  color:
+                                      const Color.fromARGB(255, 236, 244, 78)),
                             ),
                             Row(
                               children: [
-                                Icon(Icons.lock, color: Colors.white),
+                                const Icon(Icons.lock, color: Colors.white),
                                 Padding(
-                                  padding: EdgeInsets.fromLTRB(0, 0, 10, 0),
+                                  padding:
+                                      const EdgeInsets.fromLTRB(0, 0, 10, 0),
                                   child: Text(
                                     'Logout',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 15),
+                                    style: GoogleFonts.caveat(
+                                        color: Colors.white, fontSize: 20),
                                   ),
                                 ),
                               ],
