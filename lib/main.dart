@@ -1,10 +1,9 @@
-import 'package:echo_link/screens/loginpage.dart';
-import 'package:echo_link/screens/profile.dart';
+import 'package:echo_link/screens/homepage.dart';
+import 'package:echo_link/widgets/Hamdrawer.dart';
 import 'package:flutter/material.dart';
-import 'screens/loginpage.dart';
 
 void main() {
-  runApp(const login());
+  runApp(const EchoLink());
 }
 
 class EchoLink extends StatefulWidget {
@@ -18,9 +17,8 @@ class _EchoLinkState extends State<EchoLink> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Prof(),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: Home(),
     );
   }
 }

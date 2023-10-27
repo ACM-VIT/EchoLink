@@ -1,3 +1,4 @@
+import 'package:echo_link/widgets/Hamdrawer.dart';
 import 'package:flutter/material.dart';
 
 class login extends StatefulWidget {
@@ -11,6 +12,11 @@ class _loginState extends State<login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color(0xff1e1e1e),
+        title: Text('Echo Link'),
+      ),
+      drawer: Hamdrawer(),
       resizeToAvoidBottomInset: false,
       body: Container(
         padding: const EdgeInsets.all(45.0),
