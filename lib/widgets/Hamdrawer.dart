@@ -16,7 +16,7 @@ class _HamdrawerState extends State<Hamdrawer> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Color(0xff1e1e1e),
+      backgroundColor: Colors.deepPurple,
       child: ListView(
         padding: EdgeInsets.zero,
         children: [

@@ -14,8 +14,9 @@ class _ProfState extends State<Prof> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xff1e1e1e),
-        title: const Text('Echo Link'),
+        backgroundColor: Colors.deepPurple,
+        title: const Text('Echo Link',style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       drawer: const Hamdrawer(),
       backgroundColor: Colors.black,
