@@ -8,8 +8,8 @@ class login extends StatefulWidget {
   @override
   State<login> createState() => _loginState();
 }
-
 class _loginState extends State<login> {
+  bool obscureState = true;
   @override
   Widget build(BuildContext context) {
     return Directionality(
@@ -86,9 +86,17 @@ class _loginState extends State<login> {
                     color: Colors.white),
               ),
             ),
-            const TextField(
+             TextField(
+              obscureText: obscureState,
               keyboardType: TextInputType.visiblePassword,
               decoration: InputDecoration(
+                suffixIcon: IconButton(onPressed: (){
+                  setState(() {
+                    obscureState = !obscureState;
+                  });
+                }, icon: Icon(obscureState
+                         ? Icons.visibility
+                         : Icons.visibility_off, color: Colors.deepPurple),),
                 hintText: '********',
                 hintStyle: TextStyle(fontSize: 15.0, color: Colors.white),
               ),
