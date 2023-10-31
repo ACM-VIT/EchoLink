@@ -1,4 +1,3 @@
-import 'package:echo_link/screens/profile.dart';
 import 'package:echo_link/screens/signuppage.dart';
 import 'package:echo_link/widgets/Hamdrawer.dart';
 import 'package:echo_link/widgets/NavigationMenu.dart';
@@ -15,6 +14,7 @@ class login extends StatefulWidget {
 
 class _loginState extends State<login> {
   bool obscureState = true;
+
   @override
   Widget build(BuildContext context) {
     return Directionality(
@@ -64,7 +64,8 @@ class _loginState extends State<login> {
                 const SizedBox(
                   height: 50,
                 ),
-                const TextFieldEntry(title: "Login", hintText: "vitians@acmvit.com"),
+                const TextFieldEntry(
+                    title: "Login", hintText: "vitians@acmvit.com"),
                 PasswordFieldEntry(title: "Password"),
                 const SizedBox(
                   height: 30,
@@ -111,7 +112,7 @@ class _loginState extends State<login> {
                 const SizedBox(
                   height: 30,
                 ),
-                 Align(
+                Align(
                   alignment: Alignment.bottomCenter,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -124,14 +125,15 @@ class _loginState extends State<login> {
                             fontSize: 18),
                       ),
                       TextButton(
-                        child: const Text("Sign up here",style: TextStyle(
-                            color: Colors.deepPurple,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 18)),
-                        onPressed: (){
+                        child: const Text("Sign up here",
+                            style: TextStyle(
+                                color: Colors.deepPurple,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18)),
+                        onPressed: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                          builder: (BuildContext context) =>
-                              const SignUp()));
+                              builder: (BuildContext context) =>
+                                  const SignUp()));
                         },
                       ),
                     ],
