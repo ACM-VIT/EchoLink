@@ -1,5 +1,4 @@
 import 'package:echo_link/screens/loginpage.dart';
-import 'package:echo_link/widgets/NavigationMenu.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -18,7 +17,7 @@ class _EchoLinkState extends State<EchoLink> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Localizations Sample App',
+      title: 'Localization Sample App',
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
