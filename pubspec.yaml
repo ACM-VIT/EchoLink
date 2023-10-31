@@ -33,14 +33,48 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
-
-
+  flutter_native_splash: ^2.3.5
+  
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   google_fonts: ^6.1.0
   flutter_launcher_icons: ^0.13.1
 
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  
+  
+  image_android: assets\images\splashscreen.png
+  image_dark_android: assets\images\splashscreen.png
+  image_ios: assets\images\splashscreen.png
+  image_dark_ios: assets\images\splashscreen.png
+   
+  android_12:
+    
+    # Please note that the splash screen will be clipped to a circle on the center of the screen.
+    # App icon with an icon background: This should be 960×960 pixels, and fit within a circle
+    # 640 pixels in diameter.
+    # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
+    # 768 pixels in diameter.
+    
+
+    # Splash screen background color.
+    color: "#000000"
+
+    # App icon background color.
+    image: assets\images\splashscreen.png
+
+    
+    image_dark: assets\images\splashscreen.png
+    #color_dark: "#042a49"
+ 
+
+  
+ 
+  
 flutter_launcher_icons: 
   android: "launcher_icon"
   ios: true
