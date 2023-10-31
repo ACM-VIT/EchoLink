@@ -14,10 +14,14 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xff1e1e1e),
-        title: Text('Echo Link'),
+        title: const Text('Echo Link'),
       ),
-      drawer: Hamdrawer(),
-      body: Center(child: Text('HomePage')),
+      drawer: const Hamdrawer(),
+      body: Container(
+        child: const Center(
+          child: Text('Welcome back!'),
+        ),
+      ),
     );
   }
 }
