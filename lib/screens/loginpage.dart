@@ -1,6 +1,9 @@
 import 'package:echo_link/screens/profile.dart';
+import 'package:echo_link/screens/signuppage.dart';
 import 'package:echo_link/widgets/Hamdrawer.dart';
 import 'package:echo_link/widgets/NavigationMenu.dart';
+import 'package:echo_link/widgets/PasswordFieldEntry.dart';
+import 'package:echo_link/widgets/TextFieldEntry.dart';
 import 'package:flutter/material.dart';
 
 class login extends StatefulWidget {
@@ -22,13 +25,13 @@ class _loginState extends State<login> {
           title: const Text('Echo Link',
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-          iconTheme: IconThemeData(color: Colors.white),
+          iconTheme: const IconThemeData(color: Colors.white),
         ),
-        drawer: Hamdrawer(),
+        drawer: const Hamdrawer(),
         resizeToAvoidBottomInset: false,
         body: SingleChildScrollView(
           child: Container(
-            padding: const EdgeInsets.all(45.0),
+            padding: const EdgeInsets.all(40.0),
             color: Colors.black,
             child: Column(
               children: [
@@ -61,56 +64,8 @@ class _loginState extends State<login> {
                 const SizedBox(
                   height: 50,
                 ),
-                const Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "Email",
-                    style: TextStyle(
-                        fontWeight: FontWeight.w500,
-                        fontSize: 18,
-                        color: Colors.white),
-                  ),
-                ),
-                const TextField(
-                  keyboardType: TextInputType.visiblePassword,
-                  decoration: InputDecoration(
-                    hintText: 'abc@gmail.com',
-                    hintStyle: TextStyle(fontSize: 15.0, color: Colors.white),
-                  ),
-                  style: TextStyle(color: Colors.white),
-                ),
-                const Padding(padding: EdgeInsets.all(8.0)),
-                const Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "Password",
-                    style: TextStyle(
-                        fontWeight: FontWeight.w500,
-                        fontSize: 18,
-                        color: Colors.white),
-                  ),
-                ),
-                TextField(
-                  obscureText: obscureState,
-                  keyboardType: TextInputType.visiblePassword,
-                  decoration: InputDecoration(
-                    suffixIcon: IconButton(
-                      onPressed: () {
-                        setState(() {
-                          obscureState = !obscureState;
-                        });
-                      },
-                      icon: Icon(
-                          obscureState
-                              ? Icons.visibility
-                              : Icons.visibility_off,
-                          color: Colors.deepPurple),
-                    ),
-                    hintText: '********',
-                    hintStyle: TextStyle(fontSize: 15.0, color: Colors.white),
-                  ),
-                  style: TextStyle(color: Colors.white),
-                ),
+                const TextFieldEntry(title: "Login", hintText: "vitians@acmvit.com"),
+                PasswordFieldEntry(title: "Password"),
                 const SizedBox(
                   height: 30,
                 ),
@@ -136,7 +91,7 @@ class _loginState extends State<login> {
                     },
                     style: ElevatedButton.styleFrom(
                         //change width and height on your need width = 200 and height = 50
-                        minimumSize: Size(400, 50),
+                        minimumSize: const Size(400, 50),
                         primary: Colors.deepPurple,
                         shadowColor:
                             Colors.white, //specify the button's elevation color
@@ -156,24 +111,28 @@ class _loginState extends State<login> {
                 const SizedBox(
                   height: 30,
                 ),
-                const Align(
+                 Align(
                   alignment: Alignment.bottomCenter,
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
+                      const Text(
                         "Don't have an account?",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                             fontSize: 18),
                       ),
-                      SizedBox(width: 10),
-                      Text(
-                        "Sign up here",
-                        style: TextStyle(
+                      TextButton(
+                        child: const Text("Sign up here",style: TextStyle(
                             color: Colors.deepPurple,
                             fontWeight: FontWeight.bold,
-                            fontSize: 18),
+                            fontSize: 18)),
+                        onPressed: (){
+                          Navigator.of(context).push(MaterialPageRoute(
+                          builder: (BuildContext context) =>
+                              const SignUp()));
+                        },
                       ),
                     ],
                   ),
